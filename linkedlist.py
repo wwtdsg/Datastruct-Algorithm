@@ -57,13 +57,3 @@ class SinCycLinkedList:
             count += 1
             cur = cur.getNext()
         return count
-
-if __name__ == '__main__':
-    s = SinCycLinkedList()
-    print s.empty(), s.size()
-    s.add(19)
-    s.add(66)
-    print s.empty(), s.size()
-    print s.search(86), s.search(66)
-    s.remove(19)
-    print s.size(), s.empty()
