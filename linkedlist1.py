@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# 链表的python实现 单循环链表
+# 链表的python实现 单链表
 
 
 class Node:
