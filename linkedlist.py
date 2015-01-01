@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# 链表的python实现
+# 单循环链表的python实现
 # 参考：www.cnblogs.com/russellluo/p/3285045.html
 
 
