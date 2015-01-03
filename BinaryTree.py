@@ -67,12 +67,6 @@ def PostfixExpressionTree(exp):  # 根据后缀表达式构造表达式树
             stack.append(tree)
     return tree
 
-Iexp = '((1+2)+(3+(4*5)))'  # 中缀表达式
-I = InfixExpressionTree(Iexp)
-
-Pexp = '12+345+**'  # 后缀表达式
-p = PostfixExpressionTree(Pexp)
-
 
 def inorder(tree):  # 中序遍历
     if tree:
@@ -86,6 +80,14 @@ def postorder(tree):  # 后序遍历
         postorder(tree.leftChild)
         postorder(tree.rightChild)
         print tree.key
+
+# 测试代码
+Iexp = '((1+2)+(3+(4*5)))'  # 中缀表达式
+I = InfixExpressionTree(Iexp)
+
+Pexp = '12+345+**'  # 后缀表达式
+p = PostfixExpressionTree(Pexp)
+
 postorder(I)
 print '----'
 inorder(I)
