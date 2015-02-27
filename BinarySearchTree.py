@@ -78,7 +78,7 @@ class BinarySearchTree():
 
 def main():
     """
-    创建实例验证二叉树是否成功建立
+    创建实例验证二叉树是否成功建立.
     """
     binary = BinarySearchTree(5)
     print "找一个不存在的数："
